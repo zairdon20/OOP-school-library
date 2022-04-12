@@ -4,6 +4,7 @@ class Student < Person
     @classroom = classroom
     super(age, name, parent_permission)
   end
+
   def play_hookey
     "¯\(ツ)/¯"
   end
